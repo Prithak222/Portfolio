@@ -1,49 +1,54 @@
-import React from 'react';
-import { FaWordpress, FaShoppingCart, FaSearch, FaChartBar, FaPalette, FaHtml5, FaEnvelope, FaCertificate } from 'react-icons/fa';
+import { FaRegFileAlt, FaGlobe, FaSearch, FaHistory, FaShieldAlt, FaChartLine, FaEnvelope, FaCertificate } from 'react-icons/fa';
 import './Portfolio.css';
 
 const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      category: 'WordPress',
-      title: 'Responsive WordPress website',
-      icon: <FaWordpress className="portfolio-card-icon" />,
+      category: 'Foreign Affairs',
+      title: 'Nepal-India Border Tensions: A Diplomatic Analysis',
+      desc: 'In-depth coverage of the evolving diplomatic relations and border disputes between Nepal and India.',
+      icon: <FaRegFileAlt className="portfolio-card-icon" />,
       link: '#',
     },
     {
       id: 2,
-      category: 'E-Commerce',
-      title: 'Online store, multi-vendor shop',
-      icon: <FaShoppingCart className="portfolio-card-icon" />,
+      category: 'International Relations',
+      title: "China's Belt and Road Initiative, Nepal,",
+      desc: 'Comprehensive reporting on Chinese infrastructure investments and their geopolitical implications.',
+      icon: <FaGlobe className="portfolio-card-icon" />,
       link: '#',
     },
     {
       id: 3,
-      category: 'SEO',
-      title: 'Search Engine Optimization',
+      category: 'Diplomacy',
+      title: 'South Asian Summit Coverage',
+      desc: 'Live reporting and analysis from regional diplomatic summits and bilateral meetings.',
       icon: <FaSearch className="portfolio-card-icon" />,
       link: '#',
     },
     {
       id: 4,
-      category: 'Dashboard',
-      title: 'Admin Panel & Dashboard',
-      icon: <FaChartBar className="portfolio-card-icon" />,
+      category: 'Political Analysis',
+      title: "Nepal's Political Transition,",
+      desc: "Field reporting on Nepal's democratic developments and constitutional changes.",
+      icon: <FaHistory className="portfolio-card-icon" />,
       link: '#',
     },
     {
       id: 5,
-      category: 'System Admin',
-      title: 'Linux System Administration',
-      icon: <FaPalette className="portfolio-card-icon" />,
+      category: 'Security',
+      title: 'Regional Security Dynamics',
+      desc: 'Analysis of security cooperation and challenges in the South Asian region.',
+      icon: <FaShieldAlt className="portfolio-card-icon" />,
       link: '#',
     },
     {
       id: 6,
-      category: 'Laravel',
-      title: 'Custom Laravel Web Application',
-      icon: <FaHtml5 className="portfolio-card-icon" />,
+      category: 'Economics',
+      title: 'Economic Diplomacy in the Himalayas',
+      desc: 'Coverage of trade agreements and economic partnerships affecting Nepal.',
+      icon: <FaChartLine className="portfolio-card-icon" />,
       link: '#',
     },
   ];
@@ -54,7 +59,7 @@ const Portfolio = () => {
         <div className="section-title-wrap">
           <div className="section-tag"></div>
           <h2 className="section-title">Portfolio</h2>
-          <p className="section-subtitle">My Projects and Works</p>
+          <p className="section-subtitle">Featured work and published reports</p>
         </div>
 
         <div className="grid-3 portfolio-grid">
@@ -67,6 +72,7 @@ const Portfolio = () => {
               <div className="portfolio-info">
                 <span className="portfolio-cat">{project.category}</span>
                 <h3 className="portfolio-title">{project.title}</h3>
+                <p className="portfolio-card-desc">{project.desc}</p>
                 <a href={project.link} className="portfolio-link">
                   Read More &gt;
                 </a>
@@ -82,12 +88,12 @@ const Portfolio = () => {
               <FaEnvelope className="banner-icon" />
             </div>
             <div className="banner-content">
-              <h3 className="banner-title">Work With Me</h3>
+              <h3 className="banner-title">Muck Rack Portfolio</h3>
               <p className="banner-text">
-                If you have any projects in mind, feel free to contact me. I am open to freelance work, full-time roles, or consultancy.
+                View my complete portfolio of published work and media coverage
               </p>
-              <a href="#contact" className="banner-link">
-                Let's Talk &gt;
+              <a href="#" className="banner-link">
+                Visit Profile &gt;
               </a>
             </div>
           </div>
@@ -97,12 +103,12 @@ const Portfolio = () => {
               <FaCertificate className="banner-icon" />
             </div>
             <div className="banner-content">
-              <h3 className="banner-title">Dedicated to Quality</h3>
+              <h3 className="banner-title">LinkedIn Profile</h3>
               <p className="banner-text">
-                Always striving for clean code, solid performance, and client satisfaction. I focus on doing the job right.
+                Connect with me professionally and view my career history
               </p>
-              <a href="#about" className="banner-link">
-                About My Process &gt;
+              <a href="#" className="banner-link">
+                Visit Profile &gt;
               </a>
             </div>
           </div>

@@ -56,7 +56,7 @@ const Contact = () => {
         <div className="section-title-wrap">
           <div className="section-tag"></div>
           <h2 className="section-title">Get In Touch</h2>
-          <p className="section-subtitle">Let's discuss your next project</p>
+          <p className="section-subtitle">Let's discuss media coverage or reporting opportunities</p>
         </div>
 
         <div className="grid-2 contact-grid">

@@ -8,17 +8,20 @@ const Hero = () => {
       <div className="hero-glow-2"></div>
       <div className="container">
         <div className="hero-content animate-fade-in">
-          <p className="hero-tagline">HELLO, MY NAME IS</p>
+          <p className="hero-tagline">Foreign Affairs & Diplomacy Journalist</p>
           <h1 className="hero-name">Binod Prasad Adhikari</h1>
           <h2 className="hero-title">
-            Foreign employment training provider & Web developer specialist
+            Nepal Correspondent at Asian News International (ANI)
           </h2>
+          <p className="hero-desc">
+            Specializing in foreign affairs, diplomacy, and international relations from Nepal, covering South Asian geopolitics, regional developments, and global affairs.
+          </p>
           <div className="hero-btns">
-            <a href="#contact" className="btn btn-primary">
-              DOWNLOAD CV
+            <a href="#portfolio" className="btn btn-primary">
+              View Portfolio
             </a>
             <a href="#contact" className="btn btn-secondary">
-              CONTACT ME
+              Contact
             </a>
           </div>
         </div>

@@ -3,18 +3,18 @@ import './Skills.css';
 
 const Skills = () => {
   const skillList = [
-    'Laravel',
-    'Database Design',
-    'Web Design',
-    'REST API',
-    'System Admin',
-    'WordPress',
-    'PHP',
-    'JavaScript',
-    'Python',
-    'Git / GitHub',
-    'Linux',
-    'HTML & CSS',
+    'Journalism',
+    'Foreign Affairs Reporting',
+    'Political Analysis',
+    'Field Reporting',
+    'Media Communication',
+    'Diplomatic Coverage',
+    'Investigative Journalism',
+    'News Writing',
+    'International Relations',
+    'South Asian Geopolitics',
+    'Editorial Writing',
+    'Broadcast Journalism',
   ];
 
   return (
@@ -23,7 +23,7 @@ const Skills = () => {
         <div className="section-title-wrap">
           <div className="section-tag"></div>
           <h2 className="section-title">Skills & Expertise</h2>
-          <p className="section-subtitle">Technologies, Frameworks and Tools I use</p>
+          <p className="section-subtitle">Core competencies in journalism and international reporting</p>
         </div>
 
         <div className="skills-grid">

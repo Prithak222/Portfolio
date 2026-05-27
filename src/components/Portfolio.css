@@ -71,9 +71,17 @@
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--text-primary);
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   line-height: 1.4;
+}
+
+.portfolio-card-desc {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 16px;
   flex-grow: 1;
+  font-weight: 300;
 }
 
 .portfolio-link {

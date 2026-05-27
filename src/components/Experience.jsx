@@ -6,27 +6,24 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      role: 'Web Developer Specialist',
-      company: 'Nepal Gas Corporation',
-      period: 'Jan 2023 - Present',
-      location: 'Kathmandu, Nepal',
-      desc: 'Working as a Web Developer Specialist. Responsible for developing and maintaining the company website, managing databases, and implementing security features.',
+      role: 'Nepal Correspondent',
+      company: 'Asian News International (ANI)',
+      period: 'Feb 2017 – Present',
+      desc: "Covering Nepal's political landscape, foreign affairs, and diplomatic developments for India's leading news agency. Providing comprehensive analysis of regional geopolitics and Nepal's international relations.",
     },
     {
       id: 2,
-      role: 'Skill & Vocational Training Institute',
-      company: 'Foreign employment training provider',
-      period: 'Nov 2021 - Dec 2022',
-      location: 'Kathmandu, Nepal',
-      desc: 'Provided training to candidates seeking foreign employment. Covered topics like basic web development, computer networking, and system administration.',
+      role: 'Foreign Affairs and Diplomacy Reporter',
+      company: 'AP1 Television',
+      period: 'Feb 2016 – Feb 2017',
+      desc: 'Covered diplomatic relations, international summits, and foreign policy developments. Reported on bilateral and multilateral engagements affecting Nepal and the broader South Asian region.',
     },
     {
       id: 3,
-      role: 'Global Careers Agency',
-      company: 'Foreign employment agent',
-      period: 'Aug 2019 - Oct 2021',
-      location: 'Kathmandu, Nepal',
-      desc: 'Worked as a foreign employment agent. Assisted candidates with job placements, document verification, and visa application processes.',
+      role: 'Foreign Affairs Reporter',
+      company: 'Sagarmatha Television',
+      period: 'Jul 2013 – Feb 2016',
+      desc: 'Early career covering international affairs and building expertise in foreign correspondence. Developed foundational skills in diplomatic reporting and political analysis.',
     },
   ];
 
@@ -36,6 +33,7 @@ const Experience = () => {
         <div className="section-title-wrap">
           <div className="section-tag"></div>
           <h2 className="section-title">Experience</h2>
+          <p className="section-subtitle">A decade of journalism excellence</p>
         </div>
 
         <div className="timeline-container">
@@ -48,13 +46,12 @@ const Experience = () => {
               <div className="timeline-content card">
                 <div className="timeline-header">
                   <div>
-                    <h3 className="timeline-role">{exp.company}</h3>
-                    <h4 className="timeline-company">{exp.role}</h4>
+                    <h3 className="timeline-role">{exp.role}</h3>
+                    <h4 className="timeline-company">{exp.company}</h4>
                   </div>
                   <span className="timeline-period">{exp.period}</span>
                 </div>
                 <p className="timeline-desc">{exp.desc}</p>
-                <span className="timeline-loc">{exp.location}</span>
               </div>
             </div>
           ))}
