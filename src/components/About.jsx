@@ -13,13 +13,10 @@ const About = () => {
         <div className="grid-2">
           <div className="about-left">
             <p className="about-text-lead">
-              I am a dedicated backend developer and full-stack specialist with a passion for designing systems that are both robust and efficient.
+              Hi, I am Binod Prasad Adhikari. I am a Foreign employment training provider & Web developer specialist based in Kathmandu, Nepal. I have more than 10 years of experience in training and web development.
             </p>
             <p className="about-text">
-              Over the last decade, I have worked with various companies and clients, focusing on building high-performance APIs, database schemas, web scrapers, and secure user management workflows. My goal is always to deliver clean code that is easy to scale, maintain, and adapt.
-            </p>
-            <p className="about-text">
-              I am constantly exploring new technologies to keep my skills up to date. I appreciate working in collaborative environments where I can solve complex problems and contribute to solid architecture design.
+              I am passionate about creating clean, modern, and user-friendly websites. I specialize in backend development, database design, and systems architecture. I always strive to write code that is clean, scalable, and easy to maintain.
             </p>
           </div>
 
@@ -29,12 +26,12 @@ const About = () => {
               <div className="stat-label">Years of Experience</div>
             </div>
             <div className="stat-card">
-              <div className="stat-num">20+</div>
+              <div className="stat-num">2</div>
               <div className="stat-label">Completed Projects</div>
             </div>
             <div className="stat-card">
               <div className="stat-num">500+</div>
-              <div className="stat-label">Satisfied Clients</div>
+              <div className="stat-label">Students Trained</div>
             </div>
           </div>
         </div>

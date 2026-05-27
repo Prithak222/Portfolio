@@ -6,27 +6,27 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      role: 'Backend Developer',
-      company: 'Nepal Gas Industries',
+      role: 'Web Developer Specialist',
+      company: 'Nepal Gas Corporation',
       period: 'Jan 2023 - Present',
       location: 'Kathmandu, Nepal',
-      desc: 'Developed and optimized high-throughput REST APIs, streamlined background job workers for reporting, managed relational and non-relational database schemas, and worked on upgrading legacy architectures to secure modern frameworks.',
+      desc: 'Working as a Web Developer Specialist. Responsible for developing and maintaining the company website, managing databases, and implementing security features.',
     },
     {
       id: 2,
-      role: 'Foreign Employment Training Provider',
-      company: 'Skill & Vocational Training Institute',
+      role: 'Skill & Vocational Training Institute',
+      company: 'Foreign employment training provider',
       period: 'Nov 2021 - Dec 2022',
       location: 'Kathmandu, Nepal',
-      desc: 'Managed technical training programs for candidates seeking overseas employment. Taught programming basics, web development tools, database setups, and best engineering practices.',
+      desc: 'Provided training to candidates seeking foreign employment. Covered topics like basic web development, computer networking, and system administration.',
     },
     {
       id: 3,
-      role: 'Foreign Employment Agent / Consultant',
-      company: 'Global Careers Agency',
+      role: 'Global Careers Agency',
+      company: 'Foreign employment agent',
       period: 'Aug 2019 - Oct 2021',
       location: 'Kathmandu, Nepal',
-      desc: 'Coordinated technical evaluations, assessed candidate capabilities, and matched candidates with international software development opportunities.',
+      desc: 'Worked as a foreign employment agent. Assisted candidates with job placements, document verification, and visa application processes.',
     },
   ];
 
@@ -48,8 +48,8 @@ const Experience = () => {
               <div className="timeline-content card">
                 <div className="timeline-header">
                   <div>
-                    <h3 className="timeline-role">{exp.role}</h3>
-                    <h4 className="timeline-company">{exp.company}</h4>
+                    <h3 className="timeline-role">{exp.company}</h3>
+                    <h4 className="timeline-company">{exp.role}</h4>
                   </div>
                   <span className="timeline-period">{exp.period}</span>
                 </div>
