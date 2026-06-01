@@ -137,8 +137,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <span className="info-label">Email</span>
-                    <a href="mailto:binodprasadhk@gmail.com" className="info-value">
-                      binodprasadhk@gmail.com
+                    <a href="mailto:binodprasadhikari@gmail.com" className="info-value">
+                      binodprasadhikari@gmail.com
                     </a>
                   </div>
                 </div>
@@ -150,7 +150,7 @@ const Contact = () => {
                   <div>
                     <span className="info-label">Phone</span>
                     <a href="tel:+9779800000000" className="info-value">
-                      +977-9800000000
+                      +977-9845533711
                     </a>
                   </div>
                 </div>
@@ -183,7 +183,7 @@ const Contact = () => {
                 <a href="#" className="social-link" aria-label="Twitter">
                   <FaTwitter />
                 </a>
-                <a href="#" className="social-link" aria-label="Facebook">
+                <a href="https://www.facebook.com/binod.p.adhikari" className="social-link" aria-label="Facebook">
                   <FaFacebook />
                 </a>
               </div>
